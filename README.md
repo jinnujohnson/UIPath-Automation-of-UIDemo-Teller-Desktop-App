@@ -1,3 +1,12 @@
+# UIPath-Automation of UIDemo-A Teller Desktop App
+
+
+We have a teller application called “UiDemo”. We need to automate the process of inserting transactions. The transaction-related input data is stored in an Excel file. You might think this process is simple enough – we need to use a Read Range activity, then to loop through each row in the resulting DataTable to register the transactions in UiDemo. However, the challenge here is that due to the very large number of transactions, multiple robots are required to work at the same time. According to the Solution Architect and the Business Analyst, we need to allocate the process to other robots.
+
+  - Orchestrator Queue is used
+  - Robotic Enterprise Framework is used(REFramework)
+
+
 ### Documentation is included in the Documentation folder ###
 
 [ReFrameWork Documentation](https://github.com/UiPath/ReFrameWork)
